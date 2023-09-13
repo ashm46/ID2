@@ -10,7 +10,7 @@ if (!visitorCount) {
 }
 
 // 訪問者数を表示
-document.getElementById('visitorCount').textContent = visitorCount;
+document.getElementById('visitorCount').textContent = visitorCount + " 人目";
 
 // 訪問者数を保存
 localStorage.setItem('visitorCount', visitorCount);
